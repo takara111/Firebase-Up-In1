@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="yn6-FZ-smf">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--SignUp-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="SignUpViewController" customModule="Test_10_1_15" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="SignUp" id="fib-Ok-aRI"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1047.8260869565217" y="111.83035714285714"/>
+        </scene>
+        <!--SignIn-->
+        <scene sceneID="H4q-ed-xBl">
+            <objects>
+                <viewController id="oVg-mc-8Bo" customClass="SignInViewController" customModule="Test_10_1_15" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="SignIn" id="KQT-GW-IOr"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ksH-yf-Mec" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1052" y="787"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="vap-RL-rbX">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="yn6-FZ-smf" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="H02-zP-Jm0">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="LJQ-cu-Kkc"/>
+                        <segue destination="oVg-mc-8Bo" kind="relationship" relationship="viewControllers" id="ucB-gp-zWx"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MJB-dF-IXg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="111.83035714285714"/>
+        </scene>
+    </scenes>
+</document>

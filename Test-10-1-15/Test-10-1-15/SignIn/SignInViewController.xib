@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SignInViewController" customModule="Test_10_1_15" customModuleProvider="target">
+            <connections>
+                <outlet property="mainView" destination="JFA-qI-rw7" id="6hl-Jr-M09"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JFA-qI-rw7" customClass="SignInMainView" customModule="Test_10_1_15" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="JFA-qI-rw7" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="1zx-3G-w3r"/>
+                <constraint firstItem="JFA-qI-rw7" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="Kgk-9X-Jj0"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="JFA-qI-rw7" secondAttribute="bottom" id="cXJ-Kp-RS0"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="JFA-qI-rw7" secondAttribute="trailing" id="vVo-y7-DFH"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="-175" y="133"/>
+        </view>
+    </objects>
+</document>
